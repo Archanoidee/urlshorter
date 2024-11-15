@@ -1,0 +1,89 @@
+/* UrlListing.css */
+
+.url-listing-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.url-listing-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.url-listing-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.url-listing-container li {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+
+.url-listing-container li:last-child {
+    border-bottom: none;
+}
+
+.url-listing-container h3 {
+    margin: 0 0 5px;
+    color: #007bff;
+}
+
+.url-listing-container p {
+    color: #555;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.url-listing-container button {
+    padding: 8px 12px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.url-listing-container button:hover {
+    background-color: #0056b3;
+}
+
+.url-listing-container button:focus {
+    outline: none;
+}
+
+.url-listing-container .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.url-listing-container .pagination button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.url-listing-container .pagination button:hover {
+    background-color: #0056b3;
+}
+
+.url-listing-container .pagination button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

@@ -1,0 +1,92 @@
+/* UrlForm.css */
+
+.url-form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.url-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.url-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.url-form-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.url-form-container input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.url-form-container button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.url-form-container button:hover {
+    background-color: #0056b3;
+}
+
+.url-form-container button:focus {
+    outline: none;
+}
+
+.url-form-container .submit-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.url-form-container .submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.url-form-container .submit-btn:focus {
+    outline: none;
+}
+.go-back-btn {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 20px; /* Add some space above the button */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.go-back-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

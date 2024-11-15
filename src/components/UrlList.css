@@ -1,0 +1,173 @@
+/* UrlList.css */
+
+.url-list-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.url-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.url-list-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.url-list-container li {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+
+.url-list-container li:last-child {
+    border-bottom: none;
+}
+
+.url-list-container h3 {
+    margin: 0 0 5px;
+    color: #007bff;
+}
+
+.url-list-container a {
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.url-list-container a:hover {
+    text-decoration: underline;
+}
+
+.url-list-container p {
+    color: #555;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.url-list-container button {
+    padding: 8px 12px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.url-list-container button:hover {
+    background-color: #0056b3;
+}
+
+.url-list-container button:focus {
+    outline: none;
+}
+
+.url-list-container .action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.url-list-container .action-buttons button {
+    background-color: #4CAF50;
+    margin-right: 10px;
+}
+
+.url-list-container .action-buttons button:hover {
+    background-color: #45a049;
+}
+
+/* UrlList.css */
+
+/* Basic styling for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fcf8f8;
+    color: #fff;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links button {
+    padding: 10px 20px;
+    background-color: #444444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navbar-links button:hover {
+    background-color: #f0eaea;
+}
+
+/* Main container */
+.url-list-container {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+ul li h3 {
+    margin: 0;
+}
+
+ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul li button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+ul li button:hover {
+    background-color: #0056b3;
+}
